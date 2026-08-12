@@ -138,6 +138,8 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
-.mb8 { margin-bottom: 12px; }
+<style lang="scss" scoped>
+.mb8 {
+  margin-bottom: 12px;
+}
 </style>

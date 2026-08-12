@@ -1,5 +1,8 @@
 <template>
   <div class="login-container">
+    <div class="login-blob blob-1"></div>
+    <div class="login-blob blob-2"></div>
+    <div class="login-blob blob-3"></div>
     <div class="login-card">
       <div class="login-brand">
         <el-icon :size="40" color="#409eff"><FirstAidKit /></el-icon>
@@ -27,7 +30,6 @@
             v-model="loginForm.password"
             type="password"
             show-password
-            placeholder="密码：123456"
           >
             <template #prefix>
               <el-icon><Lock /></el-icon>
@@ -90,11 +92,60 @@ function handleLogin() {
 
 <style lang="scss" scoped>
 .login-container {
+  position: relative;
   height: 100%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #1f2d3d 0%, #2b5876 50%, #4e4376 100%);
+}
+
+.login-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.45;
+  pointer-events: none;
+  animation: blob-float 14s ease-in-out infinite;
+}
+
+.blob-1 {
+  width: 320px;
+  height: 320px;
+  top: -80px;
+  left: -60px;
+  background: radial-gradient(circle at 30% 30%, #4e9bff, #2b5876);
+}
+
+.blob-2 {
+  width: 260px;
+  height: 260px;
+  bottom: -70px;
+  right: -50px;
+  background: radial-gradient(circle at 70% 70%, #b06ab3, #4568dc);
+  animation-delay: -4s;
+}
+
+.blob-3 {
+  width: 200px;
+  height: 200px;
+  top: 40%;
+  right: 18%;
+  background: radial-gradient(circle at 50% 50%, #43e97b, #38f9d7);
+  animation-delay: -8s;
+}
+
+@keyframes blob-float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(40px, -30px) scale(1.1);
+  }
+  66% {
+    transform: translate(-30px, 25px) scale(0.95);
+  }
 }
 
 .login-card {

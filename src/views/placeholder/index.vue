@@ -16,7 +16,7 @@ const route = useRoute()
 const title = computed(() => route.meta?.title || '当前')
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .placeholder {
   background: #fff;
   border-radius: 8px;

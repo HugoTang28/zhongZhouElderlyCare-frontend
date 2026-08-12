@@ -11,6 +11,7 @@
           :default-active="activeMenu"
           :collapse="isCollapse"
           :collapse-transition="false"
+          unique-opened
           background-color="#001529"
           text-color="#bfcbd9"
           active-text-color="#409eff"

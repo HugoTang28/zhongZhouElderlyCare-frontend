@@ -211,8 +211,18 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
-.search-card { margin-bottom: 12px; }
-.mb8 { margin-bottom: 12px; }
-.pagination { margin-top: 16px; display: flex; justify-content: flex-end; }
+<style lang="scss" scoped>
+.search-card {
+  margin-bottom: 12px;
+}
+
+.mb8 {
+  margin-bottom: 12px;
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
 </style>

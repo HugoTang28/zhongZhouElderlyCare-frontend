@@ -361,10 +361,29 @@ watch(() => route.path, () => {
 })
 </script>
 
-<style scoped>
-.page-header { margin-bottom: 12px; }
-.page-title { margin: 0; font-size: 18px; font-weight: 600; color: var(--el-text-color-primary); }
-.search-card { margin-bottom: 12px; }
-.mb8 { margin-bottom: 12px; }
-.pagination { margin-top: 16px; display: flex; justify-content: flex-end; }
+<style lang="scss" scoped>
+.page-header {
+  margin-bottom: 12px;
+
+  .page-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--el-text-color-primary);
+  }
+}
+
+.search-card {
+  margin-bottom: 12px;
+}
+
+.mb8 {
+  margin-bottom: 12px;
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
 </style>
