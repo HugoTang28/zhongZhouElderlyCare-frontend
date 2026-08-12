@@ -237,7 +237,12 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
-.search-card { margin-bottom: 12px; }
-.mb8 { margin-bottom: 12px; }
+<style lang="scss" scoped>
+.search-card {
+  margin-bottom: 12px;
+}
+
+.mb8 {
+  margin-bottom: 12px;
+}
 </style>

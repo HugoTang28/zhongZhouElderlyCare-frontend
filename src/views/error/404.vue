@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .error-page {
   height: 100vh;
   display: flex;
@@ -15,14 +15,14 @@
   justify-content: center;
   gap: 16px;
   background: #f0f2f5;
-}
 
-h1 {
-  font-size: 72px;
-  color: #409eff;
-}
+  h1 {
+    font-size: 72px;
+    color: #409eff;
+  }
 
-p {
-  color: #909399;
+  p {
+    color: #909399;
+  }
 }
 </style>
