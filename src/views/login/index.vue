@@ -5,7 +5,7 @@
     <div class="login-blob blob-3"></div>
     <div class="login-card">
       <div class="login-brand">
-        <el-icon :size="40" color="#409eff"><FirstAidKit /></el-icon>
+        <img class="login-logo" src="@/assets/logo.png" alt="中州养老" />
         <h1>中州养老管理系统</h1>
         <p>专业 · 贴心 · 智慧的养老院管理平台</p>
       </div>
@@ -159,6 +159,13 @@ function handleLogin() {
 .login-brand {
   text-align: center;
   margin-bottom: 32px;
+
+  .login-logo {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    border-radius: 12px;
+  }
 
   h1 {
     margin: 12px 0 8px;

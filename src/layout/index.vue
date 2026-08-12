@@ -3,7 +3,7 @@
     <!-- 侧边栏 -->
     <aside class="layout-sidebar">
       <div class="logo">
-        <el-icon :size="24" color="#fff"><FirstAidKit /></el-icon>
+        <img class="logo-img" src="@/assets/logo.png" alt="中州养老" />
         <span v-show="!isCollapse">中州养老</span>
       </div>
       <el-scrollbar>
@@ -129,6 +129,13 @@ function handleCommand(command) {
     background: #002140;
     overflow: hidden;
     white-space: nowrap;
+
+    .logo-img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
   }
 
   .el-menu {
