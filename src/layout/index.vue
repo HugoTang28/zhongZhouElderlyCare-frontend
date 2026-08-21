@@ -126,7 +126,7 @@ function handleCommand(command) {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-    background: #002140;
+    background: #1e588e;
     overflow: hidden;
     white-space: nowrap;
 

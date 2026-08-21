@@ -23,11 +23,19 @@ export function delUser(userIds) {
 }
 // 重置密码
 export function resetUserPwd(userId, password) {
-  return request({ url: '/system/user/resetPwd', method: 'put', params: { userId, password } })
+  return request({
+    url: '/system/user/resetPwd',
+    method: 'put',
+    params: { userId, password },
+  })
 }
 // 状态修改
 export function changeUserStatus(userId, status) {
-  return request({ url: '/system/user/changeStatus', method: 'put', params: { userId, status } })
+  return request({
+    url: '/system/user/changeStatus',
+    method: 'put',
+    params: { userId, status },
+  })
 }
 // 角色下拉选项
 export function roleOptions() {
@@ -56,7 +64,11 @@ export function menuTree() {
 }
 // 分配菜单权限
 export function authRoleMenu(roleId, menuIds) {
-  return request({ url: '/system/role/authMenu', method: 'put', params: { roleId, menuIds } })
+  return request({
+    url: '/system/role/authMenu',
+    method: 'put',
+    params: { roleId, menuIds },
+  })
 }
 
 // ===================== 菜单管理 =====================

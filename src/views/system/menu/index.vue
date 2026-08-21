@@ -26,8 +26,8 @@
         </el-col>
       </el-row>
 
-      <el-table :data="menuList" v-loading="loading" border row-key="id"
-        :tree-props="{ children: 'children' }" default-expand-all>
+      <el-table :data="menuList" v-loading="loading" row-key="id"
+        :tree-props="{ children: 'children' }" border>
         <el-table-column prop="menuName" label="菜单名称" min-width="160" />
         <el-table-column prop="icon" label="图标" width="80" align="center">
           <template #default="scope">
