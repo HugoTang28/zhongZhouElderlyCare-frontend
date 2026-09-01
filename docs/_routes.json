@@ -1,0 +1,146 @@
+﻿[
+    {
+        "group":  "å·¥ä½å°",
+        "path":  "/workbench/dashboard",
+        "title":  "æ°æ®çæ¿",
+        "comp":  "dashboard/index"
+    },
+    {
+        "group":  "æ¥è®¿ç®¡ç",
+        "path":  "/visit/appointment",
+        "title":  "é¢çº¦ç»è®°",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æ¥è®¿ç®¡ç",
+        "path":  "/visit/registration",
+        "title":  "æ¥è®¿ç»è®°",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å\u0085¥éç®¡ç",
+        "path":  "/checkin/manage",
+        "title":  "å\u0085¥ä½ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å\u0085¥éç®¡ç",
+        "path":  "/checkin/checkout",
+        "title":  "éä½ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å¨ä½ç®¡ç",
+        "path":  "/resident/contract",
+        "title":  "ååç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å¨ä½ç®¡ç",
+        "path":  "/resident/bed",
+        "title":  "åºä½ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å¨ä½ç®¡ç",
+        "path":  "/resident/room",
+        "title":  "æ¿åç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å¨ä½ç®¡ç",
+        "path":  "/resident/leave",
+        "title":  "è¯·åç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æå¡ç®¡ç",
+        "path":  "/service/task",
+        "title":  "æ¤çä»»å¡",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æå¡ç®¡ç",
+        "path":  "/service/plan",
+        "title":  "æ¤çè®¡å",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "è´¢å¡ç®¡ç",
+        "path":  "/finance/bill",
+        "title":  "è´¦åç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "è´¢å¡ç®¡ç",
+        "path":  "/finance/prestored",
+        "title":  "é¢å­ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "è®¢åç®¡ç",
+        "path":  "/order/list",
+        "title":  "è®¢åç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "è®¢åç®¡ç",
+        "path":  "/order/refund",
+        "title":  "éæ¬¾ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "å®¢æ·ç®¡ç",
+        "path":  "/customer/list",
+        "title":  "å®¢æ·åè¡¨",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æéç®¡ç",
+        "path":  "/system/user",
+        "title":  "ç¨æ·ç®¡ç",
+        "comp":  "system/user/index"
+    },
+    {
+        "group":  "æéç®¡ç",
+        "path":  "/system/role",
+        "title":  "è§è²ç®¡ç",
+        "comp":  "system/role/index"
+    },
+    {
+        "group":  "æéç®¡ç",
+        "path":  "/system/menu",
+        "title":  "èåç®¡ç",
+        "comp":  "system/menu/index"
+    },
+    {
+        "group":  "æéç®¡ç",
+        "path":  "/system/dept",
+        "title":  "é¨é¨ç®¡ç",
+        "comp":  "system/dept/index"
+    },
+    {
+        "group":  "æéç®¡ç",
+        "path":  "/system/post",
+        "title":  "å²ä½ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æ¶æ¯ä¸­å¿",
+        "path":  "/message/push",
+        "title":  "æ¶æ¯æ¨é",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æºè½çæµ",
+        "path":  "/iot/device",
+        "title":  "è®¾å¤ç®¡ç",
+        "comp":  "business/index"
+    },
+    {
+        "group":  "æºè½çæµ",
+        "path":  "/iot/alarm",
+        "title":  "æ¥è­¦è§å",
+        "comp":  "business/index"
+    }
+]
