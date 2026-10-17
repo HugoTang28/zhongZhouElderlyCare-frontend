@@ -9,13 +9,16 @@ const useUserStore = defineStore('user', {
     name: '',
     avatar: '',
     roles: [],
-    permissions: []
+    permissions: [],
   }),
   actions: {
     // 登录
     login(loginForm) {
       return new Promise((resolve, reject) => {
-        login({ username: loginForm.username.trim(), password: loginForm.password })
+        login({
+          username: loginForm.username.trim(),
+          password: loginForm.password,
+        })
           .then((res) => {
             setToken(res.data.token)
             this.token = res.data.token
@@ -58,8 +61,8 @@ const useUserStore = defineStore('user', {
       this.roles = []
       this.permissions = []
       removeToken()
-    }
-  }
+    },
+  },
 })
 
 export default useUserStore

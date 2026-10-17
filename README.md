@@ -1,4 +1,4 @@
-# 中州养老管理系统
+# 家家乐养老管理系统
 
 #### 管理后台前端:https://github.com/HugoTang28/zhongZhouElderlyCare-frontend
 
@@ -6,7 +6,7 @@
 
 #### 后端：https://github.com/HugoTang28/zhongZhouElderlyCare-backend
 
-中州养老管理系统（ZhongZhou Elderly Care）管理后台前端，基于 Vue 3 + Vite + Element Plus 构建，覆盖 11 大业务域共 24 个功能页面。
+家家乐养老管理系统（JiaJiaLe Elderly Care）管理后台前端，基于 Vue 3 + Vite + Element Plus 构建，覆盖 11 大业务域共 24 个功能页面。
 
 ## 项目预览
 

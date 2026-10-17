@@ -3,8 +3,8 @@
     <!-- 侧边栏 -->
     <aside class="layout-sidebar">
       <div class="logo">
-        <img class="logo-img" src="@/assets/logo.png" alt="中州养老" />
-        <span v-show="!isCollapse">中州养老</span>
+        <img class="logo-img" src="@/assets/logo.png" alt="家家乐养老" />
+        <!-- <span v-show="!isCollapse">家家乐养老</span> -->
       </div>
       <el-scrollbar>
         <el-menu
@@ -131,8 +131,8 @@ function handleCommand(command) {
     white-space: nowrap;
 
     .logo-img {
-      width: 28px;
-      height: 28px;
+      width: 45px;
+      height: 45px;
       object-fit: contain;
       border-radius: 6px;
     }

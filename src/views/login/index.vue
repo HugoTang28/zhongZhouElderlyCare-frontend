@@ -5,8 +5,8 @@
     <div class="login-blob blob-3"></div>
     <div class="login-card">
       <div class="login-brand">
-        <img class="login-logo" src="@/assets/logo.png" alt="中州养老" />
-        <h1>中州养老管理系统</h1>
+        <img class="login-logo" src="@/assets/logo.png" alt="家家乐养老" />
+        <h1>家家乐养老管理系统</h1>
         <p>专业 · 贴心 · 智慧的养老院管理平台</p>
       </div>
 
