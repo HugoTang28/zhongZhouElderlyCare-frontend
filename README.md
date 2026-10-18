@@ -10,115 +10,12 @@
 
 ## 项目预览
 
-### 登录
-
-![登录](./docs/screenshots/00-login.png)
-
----
-
-### 工作台
-
-| 数据看板                                                   |
-| ---------------------------------------------------------- |
-| ![数据看板](./docs/screenshots/01-workbench-dashboard.png) |
-
-聚合在住老人、今日入住 / 来访、未缴账单、待执行护理任务、在线设备等 12 项核心运营指标，下方展示当日来访预约明细。
-
----
-
-### 来访管理
-
-| 预约登记                                                 | 来访登记                                                  |
-| -------------------------------------------------------- | --------------------------------------------------------- |
-| ![预约登记](./docs/screenshots/02-visit-appointment.png) | ![来访登记](./docs/screenshots/03-visit-registration.png) |
-
----
-
-### 入退管理
-
-| 入住管理                                              | 退住管理                                                |
-| ----------------------------------------------------- | ------------------------------------------------------- |
-| ![入住管理](./docs/screenshots/04-checkin-manage.png) | ![退住管理](./docs/screenshots/05-checkin-checkout.png) |
-
----
-
-### 在住管理
-
-| 房型管理                                             | 床位管理                                            |
-| ---------------------------------------------------- | --------------------------------------------------- |
-| ![房型管理](./docs/screenshots/06-resident-room.png) | ![床位管理](./docs/screenshots/07-resident-bed.png) |
-
-| 合同管理                                                 | 请假管理                                              |
-| -------------------------------------------------------- | ----------------------------------------------------- |
-| ![合同管理](./docs/screenshots/08-resident-contract.png) | ![请假管理](./docs/screenshots/09-resident-leave.png) |
-
----
-
-### 服务管理
-
-| 护理任务                                            | 护理计划                                            |
-| --------------------------------------------------- | --------------------------------------------------- |
-| ![护理任务](./docs/screenshots/10-service-task.png) | ![护理计划](./docs/screenshots/11-service-plan.png) |
-
----
-
-### 财务管理
-
-| 账单管理                                            | 预存管理                                                 |
-| --------------------------------------------------- | -------------------------------------------------------- |
-| ![账单管理](./docs/screenshots/12-finance-bill.png) | ![预存管理](./docs/screenshots/13-finance-prestored.png) |
-
----
-
-### 订单管理
-
-| 订单管理                                          | 退款管理                                            |
-| ------------------------------------------------- | --------------------------------------------------- |
-| ![订单管理](./docs/screenshots/14-order-list.png) | ![退款管理](./docs/screenshots/15-order-refund.png) |
-
----
-
-### 客户管理
-
-| 客户列表                                             |
-| ---------------------------------------------------- |
-| ![客户列表](./docs/screenshots/16-customer-list.png) |
-
----
-
-### 消息中心
-
-| 消息推送                                            |
-| --------------------------------------------------- |
-| ![消息推送](./docs/screenshots/17-message-push.png) |
-
----
-
-### 智能监测
-
-| 设备管理                                          | 报警规则                                         |
-| ------------------------------------------------- | ------------------------------------------------ |
-| ![设备管理](./docs/screenshots/18-iot-device.png) | ![报警规则](./docs/screenshots/19-iot-alarm.png) |
-
----
-
-### 系统管理
-
-| 用户管理                                           | 角色管理                                           |
-| -------------------------------------------------- | -------------------------------------------------- |
-| ![用户管理](./docs/screenshots/20-system-user.png) | ![角色管理](./docs/screenshots/21-system-role.png) |
-
-| 菜单管理                                           | 部门管理                                           |
-| -------------------------------------------------- | -------------------------------------------------- |
-| ![菜单管理](./docs/screenshots/22-system-menu.png) | ![部门管理](./docs/screenshots/23-system-dept.png) |
-
-| 岗位管理                                           |
-| -------------------------------------------------- |
-| ![岗位管理](./docs/screenshots/24-system-post.png) |
-
-**用户管理**：支持用户与部门、角色的关联分配，提供重置密码等运维操作。
-**角色管理**：基于 `el-tree` 实现树形菜单权限分配，提交时合并 `getCheckedKeys` 与 `getHalfCheckedKeys`，保证父子节点权限一致。
-**菜单管理**：平铺数据经 O(n) 建树后以树形表格渲染，支持目录 / 菜单 / 按钮三种类型，菜单的 `component` 字段直接驱动前端动态路由。
+| ![image1](docs/img/image1.png) | ![image2](docs/img/image2.png) |
+| ![image3](docs/img/image3.png) | ![image4](docs/img/image4.png) |
+| ![image5](docs/img/image5.png) | ![image6](docs/img/image6.png) |
+| ![image7](docs/img/image7.png) | ![image8](docs/img/image8.png) |
+| ![image9](docs/img/image9.png) | ![image10](docs/img/image10.png) |
+| ![image11](docs/img/image11.png) | ![image12](docs/img/image12.png) |
 
 ## 技术栈
 
@@ -228,9 +125,3 @@ zzyl-frontend-b/
 ├── package.json
 └── vite.config.js
 ```
-
-## 说明
-
-- 路由权限拦截统一在 `src/permission.js` 中处理，接口请求统一在 `src/api` 中封装
-- 配套后端服务：`zzyl-backend`（Spring Boot 3 + Java 17 + MyBatis-Plus）
-- 配套家属端：`zzyl-frontend-c`（uni-app + Vue 3 微信小程序）
